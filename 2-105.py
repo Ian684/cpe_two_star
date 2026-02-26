@@ -35,6 +35,9 @@ def make(start , temp):
             if compare(arr[-3] , arr[-2] , arr[-1]):break
             arr.pop(-2)
     return arr
+def dgk
+
+
 while True:
     m , c = map(int , input().split())
     if m == 0 and c == 0:break
@@ -42,4 +45,6 @@ while True:
     startb , b = set_data(c)
     a = make(starta , a)
     b = make(startb , b)
-    
+    if dgk(a , b):
+        print("yes")
+    else:print("no")
