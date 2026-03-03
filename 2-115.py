@@ -1,4 +1,4 @@
-def main()
+def main():
     spl = ('.',',','!','?',' ')
     while True:
         try:
