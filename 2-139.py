@@ -22,7 +22,7 @@ def intersect(line , polygon):
         if o1 == 0 and isonline(polygon[i] , line[0] , line[1]):flag = True
         if o2 == 0 and isonline(polygon[next] , line[0] , line[1]):flag = True
         if o3 == 0 and isonline(line[0] , polygon[i] , polygon[next]):flag = True
-        if o4 == 0 and isonline(line[0] , polygon[i] , polygon[next]):flag = True
+        if o4 == 0 and isonline(line[1] , polygon[i] , polygon[next]):flag = True
 
         if flag:
             break
