@@ -39,6 +39,5 @@ def main():
             print(-1)
         else:
             print(c)
->>>>>>> e72dd16bcf1a21f57ce77e21d9039d38669d67f6
 if __name__ == "__main__":
     main()
